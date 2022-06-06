@@ -10,4 +10,6 @@
 
     <color name="green">#24B25D</color>
     <color name="gray">#7C7C7C</color>
+    <color name="isNotSelected">#F0F4F7</color>
+    <color name="isSelected">#1A1A1A</color>
 </resources>

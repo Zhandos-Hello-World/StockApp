@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:name="com.zhandos.myapplication.feature_stock.presentation.detailScreen.DetailFragment"/>
+        android:name="com.zhandos.myapplication.feature_stock.presentation.stockScreen.StockFragment"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

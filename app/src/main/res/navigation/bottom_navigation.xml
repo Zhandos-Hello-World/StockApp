@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/stockFragment">
+
+    <fragment
+        android:id="@+id/stockFragment"
+        android:name="com.zhandos.myapplication.feature_stock.presentation.stockScreen.StockFragment"
+        android:label="StockFragment" />
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.zhandos.myapplication.feature_stock.presentation.favouriteScreen.FavouriteFragment"
+        android:label="FavouriteFragment" />
+</navigation>
